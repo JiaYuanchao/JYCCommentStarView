@@ -7,8 +7,11 @@
 //
 
 #import "JYCViewController.h"
+#import "JYCCommentStarView.h"
 
 @interface JYCViewController ()
+
+@property (nonatomic, strong) JYCCommentStarView *starView;
 
 @end
 
@@ -18,6 +21,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.starView = [[JYCCommentStarView alloc] initWithFrame:CGRectMake(0, 100, 150, 17) starValue:0 starMargin:3];
+    self.starView.canClick = YES;
+    [self.view addSubview:self.starView];
+    NSLog(@"self.starView.currentStarValue = %f",self.starView.currentStarValue);
+    
 }
 
 - (void)didReceiveMemoryWarning

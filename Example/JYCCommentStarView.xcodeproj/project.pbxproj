@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1604FCAEE6DA5D3E83EB2481 /* Pods-JYCCommentStarView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYCCommentStarView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYCCommentStarView_Tests/Pods-JYCCommentStarView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		42FA543E0E6CE9B7866563A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		42FA543E0E6CE9B7866563A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4924D6DCCA9493501B5F2442 /* Pods-JYCCommentStarView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYCCommentStarView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYCCommentStarView_Example/Pods-JYCCommentStarView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JYCCommentStarView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYCCommentStarView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,12 +61,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		61B313DF6EE80BC26EB5AEE5 /* Pods-JYCCommentStarView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYCCommentStarView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYCCommentStarView_Tests/Pods-JYCCommentStarView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		623BEA9C28139FB80D975645 /* Pods_JYCCommentStarView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYCCommentStarView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6320DDB00D536CADD2868814 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6320DDB00D536CADD2868814 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75E2570A12858D954AD9A3B7 /* Pods-JYCCommentStarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYCCommentStarView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYCCommentStarView_Example/Pods-JYCCommentStarView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		78C74575A82BA66FC2216792 /* Pods_JYCCommentStarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYCCommentStarView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE5B0DC1FB41E821E002BFFC /* JYCCommentStarView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JYCCommentStarView.podspec; path = ../JYCCommentStarView.podspec; sourceTree = "<group>"; };
+		AE5B0DC1FB41E821E002BFFC /* JYCCommentStarView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JYCCommentStarView.podspec; path = ../JYCCommentStarView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

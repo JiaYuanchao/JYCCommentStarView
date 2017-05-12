@@ -1,0 +1,6 @@
+framework module JYCCommentStarView {
+  umbrella header "JYCCommentStarView-umbrella.h"
+
+  export *
+  module * { export * }
+}

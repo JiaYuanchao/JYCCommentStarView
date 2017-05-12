@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15B68944FF197F78F2CF9409B879CC0E /* starSpace@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D08FBD5209100035DCC2281E65E2D215 /* starSpace@3x.png */; };
+		18F81D3607C0F8386516BF349DFD0158 /* starFull@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 226209B261FB1EBE60068792DB585EB5 /* starFull@3x.png */; };
+		34D025A33A8767A9AF21166201275B1F /* starSpace@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF8450080E51173536645C59B1E6EE2 /* starSpace@2x.png */; };
+		3721857F482493C4C6B501A72E59B953 /* Pods-JYCCommentStarView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F7DB079496A367F4E00ED4187E14F5 /* Pods-JYCCommentStarView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		498FF8C06A6D59FF69D6FE18986BFE52 /* JYCCommentStarView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C28A9323A42BFDBB75854232994D1371 /* JYCCommentStarView.bundle */; };
+		573F133516D467A27DDDE35D813C4DAB /* JYCCommentStarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DBFC53D1E9DE380C48D7916CE21258 /* JYCCommentStarView-dummy.m */; };
+		64E49675A1348CEDC178A7F9ED5DFC54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		693DA5AFDFD6C8991190E149178FA6C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6FB7B241790BE76C8DC216288A281B78 /* Pods-JYCCommentStarView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D72F00C8C93321CAD7DD57FD56076D3 /* Pods-JYCCommentStarView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		907AAF2C2315B93C593258DD7B196BCC /* starFull@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6EA06B6203036C7F62B8A409E0D761D /* starFull@2x.png */; };
+		9A8972C75A64D0A9923C9AF3660DD33D /* JYCCommentStarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2C7ED45056DABC00D4B21D1B799E6B /* JYCCommentStarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0B8147C201B228B0A63B8213BFBEE5 /* JYCCommentStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E9CEB97819E750083F75D6873FD263 /* JYCCommentStarView.m */; };
+		A12B338C3E9B701863CB5923090C7ED1 /* Pods-JYCCommentStarView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 982027E6AB220255AC5FA189BA5A8D9C /* Pods-JYCCommentStarView_Example-dummy.m */; };
+		DE64F0BC1C0EEB2A117F67948E1078BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E8310DE41E24027C1894FF43BE3C893A /* JYCCommentStarView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B22C006FA4D53E19A91F04EB0DD2503 /* JYCCommentStarView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE4E0AFDEEFA58D71BC9A20A89277D84 /* Pods-JYCCommentStarView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F99D642CD4EC528AB29162D7AF7326 /* Pods-JYCCommentStarView_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4B71C0FF668641A96F5D01E06B6E972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D0DABBE28EB86EDF26245DF1EE6DA84;
+			remoteInfo = JYCCommentStarView;
+		};
+		AC53FBA381264349D7252F85028DAA9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50C43466919BB681BD710CF88FD87DB0;
+			remoteInfo = "JYCCommentStarView-JYCCommentStarView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02DF992E334E38CC517669170BE0C344 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BF8450080E51173536645C59B1E6EE2 /* starSpace@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "starSpace@2x.png"; sourceTree = "<group>"; };
+		0D72F00C8C93321CAD7DD57FD56076D3 /* Pods-JYCCommentStarView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JYCCommentStarView_Example-umbrella.h"; sourceTree = "<group>"; };
+		100539D5DFF53EFDFC3228F0E8BAC871 /* Pods-JYCCommentStarView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYCCommentStarView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		13F7DB079496A367F4E00ED4187E14F5 /* Pods-JYCCommentStarView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JYCCommentStarView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1730BA8681A2031ACD9EBDE011C1EE35 /* Pods-JYCCommentStarView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYCCommentStarView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		226209B261FB1EBE60068792DB585EB5 /* starFull@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "starFull@3x.png"; sourceTree = "<group>"; };
+		227F6FCBB5FE1557DEB747C016D42FDC /* JYCCommentStarView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYCCommentStarView.xcconfig; sourceTree = "<group>"; };
+		28E9CEB97819E750083F75D6873FD263 /* JYCCommentStarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JYCCommentStarView.m; sourceTree = "<group>"; };
+		29397728DCB315D622404399B608B8C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1825AB85892113EC6E191CBD0F53D1 /* Pods-JYCCommentStarView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JYCCommentStarView_Example.modulemap"; sourceTree = "<group>"; };
+		38167BF908CFF4146F904720AC0FE176 /* Pods-JYCCommentStarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYCCommentStarView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3FFC1CBB221D380232799C82FB59C442 /* Pods_JYCCommentStarView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JYCCommentStarView_Tests.framework; path = "Pods-JYCCommentStarView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D8B79686D6D78679828B12ADBC023D /* Pods-JYCCommentStarView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYCCommentStarView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4D2C7ED45056DABC00D4B21D1B799E6B /* JYCCommentStarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JYCCommentStarView.h; sourceTree = "<group>"; };
+		531049D862966E513FD24F5A9C130905 /* Pods-JYCCommentStarView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYCCommentStarView_Example-resources.sh"; sourceTree = "<group>"; };
+		5B22C006FA4D53E19A91F04EB0DD2503 /* JYCCommentStarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYCCommentStarView-umbrella.h"; sourceTree = "<group>"; };
+		63DBFC53D1E9DE380C48D7916CE21258 /* JYCCommentStarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JYCCommentStarView-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68F99D642CD4EC528AB29162D7AF7326 /* Pods-JYCCommentStarView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYCCommentStarView_Tests-dummy.m"; sourceTree = "<group>"; };
+		69FD6B75B06A2C9431FC3549CCD14A67 /* Pods_JYCCommentStarView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JYCCommentStarView_Example.framework; path = "Pods-JYCCommentStarView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7018F65831A20F72714E3085AB1FACD0 /* Pods-JYCCommentStarView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYCCommentStarView_Tests-resources.sh"; sourceTree = "<group>"; };
+		86E75BE574C38727AEAC8047772809CF /* Pods-JYCCommentStarView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYCCommentStarView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		90A6B118265D6985F758BE58409864DD /* JYCCommentStarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JYCCommentStarView.framework; path = JYCCommentStarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		982027E6AB220255AC5FA189BA5A8D9C /* Pods-JYCCommentStarView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYCCommentStarView_Example-dummy.m"; sourceTree = "<group>"; };
+		9DC8F865D6FA4EAFC19076E2FB9B428B /* Pods-JYCCommentStarView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYCCommentStarView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B32D0FC40DC96E2CE9A60FA4FD9EC7AA /* ResourceBundle-JYCCommentStarView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JYCCommentStarView-Info.plist"; sourceTree = "<group>"; };
+		BA76B36BDAADBC700B6536B2EDE9AC0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28A9323A42BFDBB75854232994D1371 /* JYCCommentStarView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JYCCommentStarView.bundle; path = JYCCommentStarView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4A78F84F5FAE4F0B132C9746F189EF /* JYCCommentStarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYCCommentStarView-prefix.pch"; sourceTree = "<group>"; };
+		D08FBD5209100035DCC2281E65E2D215 /* starSpace@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "starSpace@3x.png"; sourceTree = "<group>"; };
+		D57DE02F93A0767996727B211119C554 /* Pods-JYCCommentStarView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYCCommentStarView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6EA06B6203036C7F62B8A409E0D761D /* starFull@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "starFull@2x.png"; sourceTree = "<group>"; };
+		E9215B358D78C70913B63F000BA8C3AF /* Pods-JYCCommentStarView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JYCCommentStarView_Tests.modulemap"; sourceTree = "<group>"; };
+		EA957B9FCAAC8C7A01621CCB3C4A6CC2 /* Pods-JYCCommentStarView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYCCommentStarView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EBE593035257A6461E6F9569FB542A26 /* Pods-JYCCommentStarView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYCCommentStarView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F16142560DB4A45F3F6106F65B2331AA /* Pods-JYCCommentStarView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYCCommentStarView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F3764C588AEA45CCA9325026182FB633 /* JYCCommentStarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JYCCommentStarView.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B5EC5F9D752E7092AE5CC564B15A1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E49675A1348CEDC178A7F9ED5DFC54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632FCF858CFC4E5595B5482A0A17D278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE64F0BC1C0EEB2A117F67948E1078BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F1D47E29222CEBC6881ADE74FC32D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E77C00A4FDA5EDC92A800B6EF41EC01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693DA5AFDFD6C8991190E149178FA6C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27E926BB1F7119272022B8BEAF99097D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA06B6203036C7F62B8A409E0D761D /* starFull@2x.png */,
+				226209B261FB1EBE60068792DB585EB5 /* starFull@3x.png */,
+				0BF8450080E51173536645C59B1E6EE2 /* starSpace@2x.png */,
+				D08FBD5209100035DCC2281E65E2D215 /* starSpace@3x.png */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		40F2169E314E4FC2930829DACF834BF3 /* JYCCommentStarView */ = {
+			isa = PBXGroup;
+			children = (
+				27E926BB1F7119272022B8BEAF99097D /* Assets */,
+			);
+			name = JYCCommentStarView;
+			path = JYCCommentStarView;
+			sourceTree = "<group>";
+		};
+		45A2A826E7EAAD341CFF2D119DAE0847 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0EC3E9FAFED05827ED90458517894F0 /* Pods-JYCCommentStarView_Example */,
+				6EE13BC0B34D38F44D23ECD7B2917B94 /* Pods-JYCCommentStarView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6EE13BC0B34D38F44D23ECD7B2917B94 /* Pods-JYCCommentStarView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				29397728DCB315D622404399B608B8C3 /* Info.plist */,
+				E9215B358D78C70913B63F000BA8C3AF /* Pods-JYCCommentStarView_Tests.modulemap */,
+				D57DE02F93A0767996727B211119C554 /* Pods-JYCCommentStarView_Tests-acknowledgements.markdown */,
+				86E75BE574C38727AEAC8047772809CF /* Pods-JYCCommentStarView_Tests-acknowledgements.plist */,
+				68F99D642CD4EC528AB29162D7AF7326 /* Pods-JYCCommentStarView_Tests-dummy.m */,
+				41D8B79686D6D78679828B12ADBC023D /* Pods-JYCCommentStarView_Tests-frameworks.sh */,
+				7018F65831A20F72714E3085AB1FACD0 /* Pods-JYCCommentStarView_Tests-resources.sh */,
+				13F7DB079496A367F4E00ED4187E14F5 /* Pods-JYCCommentStarView_Tests-umbrella.h */,
+				100539D5DFF53EFDFC3228F0E8BAC871 /* Pods-JYCCommentStarView_Tests.debug.xcconfig */,
+				F16142560DB4A45F3F6106F65B2331AA /* Pods-JYCCommentStarView_Tests.release.xcconfig */,
+			);
+			name = "Pods-JYCCommentStarView_Tests";
+			path = "Target Support Files/Pods-JYCCommentStarView_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9955E4FE324E1331AA815FC18D89E264 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				80C5CC55D25FE37F5EE5E31082E3FF56 /* Products */,
+				45A2A826E7EAAD341CFF2D119DAE0847 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80C5CC55D25FE37F5EE5E31082E3FF56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C28A9323A42BFDBB75854232994D1371 /* JYCCommentStarView.bundle */,
+				90A6B118265D6985F758BE58409864DD /* JYCCommentStarView.framework */,
+				69FD6B75B06A2C9431FC3549CCD14A67 /* Pods_JYCCommentStarView_Example.framework */,
+				3FFC1CBB221D380232799C82FB59C442 /* Pods_JYCCommentStarView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9955E4FE324E1331AA815FC18D89E264 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E59C09AC244B4041650304E67C8BAA23 /* JYCCommentStarView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9EFC12F9D30E7D8BECE7260668D00197 /* JYCCommentStarView */ = {
+			isa = PBXGroup;
+			children = (
+				DD2A1D9298793FDD8D9FA0794B08F714 /* Classes */,
+			);
+			name = JYCCommentStarView;
+			path = JYCCommentStarView;
+			sourceTree = "<group>";
+		};
+		A908E03A4525695AFD3F49B106B647E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				40F2169E314E4FC2930829DACF834BF3 /* JYCCommentStarView */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D80C8265F2718E4217682E8C52FAC8B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02DF992E334E38CC517669170BE0C344 /* Info.plist */,
+				F3764C588AEA45CCA9325026182FB633 /* JYCCommentStarView.modulemap */,
+				227F6FCBB5FE1557DEB747C016D42FDC /* JYCCommentStarView.xcconfig */,
+				63DBFC53D1E9DE380C48D7916CE21258 /* JYCCommentStarView-dummy.m */,
+				CC4A78F84F5FAE4F0B132C9746F189EF /* JYCCommentStarView-prefix.pch */,
+				5B22C006FA4D53E19A91F04EB0DD2503 /* JYCCommentStarView-umbrella.h */,
+				B32D0FC40DC96E2CE9A60FA4FD9EC7AA /* ResourceBundle-JYCCommentStarView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JYCCommentStarView";
+			sourceTree = "<group>";
+		};
+		DD2A1D9298793FDD8D9FA0794B08F714 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4D2C7ED45056DABC00D4B21D1B799E6B /* JYCCommentStarView.h */,
+				28E9CEB97819E750083F75D6873FD263 /* JYCCommentStarView.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E59C09AC244B4041650304E67C8BAA23 /* JYCCommentStarView */ = {
+			isa = PBXGroup;
+			children = (
+				9EFC12F9D30E7D8BECE7260668D00197 /* JYCCommentStarView */,
+				A908E03A4525695AFD3F49B106B647E6 /* Resources */,
+				D80C8265F2718E4217682E8C52FAC8B3 /* Support Files */,
+			);
+			name = JYCCommentStarView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F0EC3E9FAFED05827ED90458517894F0 /* Pods-JYCCommentStarView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BA76B36BDAADBC700B6536B2EDE9AC0F /* Info.plist */,
+				2C1825AB85892113EC6E191CBD0F53D1 /* Pods-JYCCommentStarView_Example.modulemap */,
+				1730BA8681A2031ACD9EBDE011C1EE35 /* Pods-JYCCommentStarView_Example-acknowledgements.markdown */,
+				EA957B9FCAAC8C7A01621CCB3C4A6CC2 /* Pods-JYCCommentStarView_Example-acknowledgements.plist */,
+				982027E6AB220255AC5FA189BA5A8D9C /* Pods-JYCCommentStarView_Example-dummy.m */,
+				EBE593035257A6461E6F9569FB542A26 /* Pods-JYCCommentStarView_Example-frameworks.sh */,
+				531049D862966E513FD24F5A9C130905 /* Pods-JYCCommentStarView_Example-resources.sh */,
+				0D72F00C8C93321CAD7DD57FD56076D3 /* Pods-JYCCommentStarView_Example-umbrella.h */,
+				9DC8F865D6FA4EAFC19076E2FB9B428B /* Pods-JYCCommentStarView_Example.debug.xcconfig */,
+				38167BF908CFF4146F904720AC0FE176 /* Pods-JYCCommentStarView_Example.release.xcconfig */,
+			);
+			name = "Pods-JYCCommentStarView_Example";
+			path = "Target Support Files/Pods-JYCCommentStarView_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B4A97167E4445E92C6B9D475DA2309AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3721857F482493C4C6B501A72E59B953 /* Pods-JYCCommentStarView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FE85C3022B2BAA26895134FB9939DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8310DE41E24027C1894FF43BE3C893A /* JYCCommentStarView-umbrella.h in Headers */,
+				9A8972C75A64D0A9923C9AF3660DD33D /* JYCCommentStarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C4F03D9BBB9B3BDC1A589CB36C65BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB7B241790BE76C8DC216288A281B78 /* Pods-JYCCommentStarView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		228EC15E68F12E7530B430E42EEADFB4 /* Pods-JYCCommentStarView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0C32044DBB6BD630F9236544799B60 /* Build configuration list for PBXNativeTarget "Pods-JYCCommentStarView_Tests" */;
+			buildPhases = (
+				27B087A87FF00667383F9C6BE96DDF07 /* Sources */,
+				9E77C00A4FDA5EDC92A800B6EF41EC01 /* Frameworks */,
+				B4A97167E4445E92C6B9D475DA2309AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JYCCommentStarView_Tests";
+			productName = "Pods-JYCCommentStarView_Tests";
+			productReference = 3FFC1CBB221D380232799C82FB59C442 /* Pods_JYCCommentStarView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50C43466919BB681BD710CF88FD87DB0 /* JYCCommentStarView-JYCCommentStarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C723ED45F77CC52B537CC7E92FB26243 /* Build configuration list for PBXNativeTarget "JYCCommentStarView-JYCCommentStarView" */;
+			buildPhases = (
+				7892915BE931B43180135327B05874D6 /* Sources */,
+				76F1D47E29222CEBC6881ADE74FC32D8 /* Frameworks */,
+				BDE5A94C38EE16B012052D0D819E2A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JYCCommentStarView-JYCCommentStarView";
+			productName = "JYCCommentStarView-JYCCommentStarView";
+			productReference = C28A9323A42BFDBB75854232994D1371 /* JYCCommentStarView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7B159D52223C5AEAC6042678DA9F8064 /* Pods-JYCCommentStarView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE5AF70F0E963FB54994989CDD7063D /* Build configuration list for PBXNativeTarget "Pods-JYCCommentStarView_Example" */;
+			buildPhases = (
+				8B48E3F0D9F7E2C6E26D03FBD59F3ACC /* Sources */,
+				5B5EC5F9D752E7092AE5CC564B15A1A3 /* Frameworks */,
+				F2C4F03D9BBB9B3BDC1A589CB36C65BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178786025A20C40AC0F215F8C6B38C1D /* PBXTargetDependency */,
+			);
+			name = "Pods-JYCCommentStarView_Example";
+			productName = "Pods-JYCCommentStarView_Example";
+			productReference = 69FD6B75B06A2C9431FC3549CCD14A67 /* Pods_JYCCommentStarView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D0DABBE28EB86EDF26245DF1EE6DA84 /* JYCCommentStarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A218DBF2014950F69975AE18BE66DD /* Build configuration list for PBXNativeTarget "JYCCommentStarView" */;
+			buildPhases = (
+				B42814802A595D6E940D11CED25C9417 /* Sources */,
+				632FCF858CFC4E5595B5482A0A17D278 /* Frameworks */,
+				254859CF739883F764557638C986F091 /* Resources */,
+				D4FE85C3022B2BAA26895134FB9939DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DE5737EDBB38905030C3B2B0204F063 /* PBXTargetDependency */,
+			);
+			name = JYCCommentStarView;
+			productName = JYCCommentStarView;
+			productReference = 90A6B118265D6985F758BE58409864DD /* JYCCommentStarView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 80C5CC55D25FE37F5EE5E31082E3FF56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D0DABBE28EB86EDF26245DF1EE6DA84 /* JYCCommentStarView */,
+				50C43466919BB681BD710CF88FD87DB0 /* JYCCommentStarView-JYCCommentStarView */,
+				7B159D52223C5AEAC6042678DA9F8064 /* Pods-JYCCommentStarView_Example */,
+				228EC15E68F12E7530B430E42EEADFB4 /* Pods-JYCCommentStarView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		254859CF739883F764557638C986F091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498FF8C06A6D59FF69D6FE18986BFE52 /* JYCCommentStarView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE5A94C38EE16B012052D0D819E2A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907AAF2C2315B93C593258DD7B196BCC /* starFull@2x.png in Resources */,
+				18F81D3607C0F8386516BF349DFD0158 /* starFull@3x.png in Resources */,
+				34D025A33A8767A9AF21166201275B1F /* starSpace@2x.png in Resources */,
+				15B68944FF197F78F2CF9409B879CC0E /* starSpace@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27B087A87FF00667383F9C6BE96DDF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4E0AFDEEFA58D71BC9A20A89277D84 /* Pods-JYCCommentStarView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7892915BE931B43180135327B05874D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B48E3F0D9F7E2C6E26D03FBD59F3ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12B338C3E9B701863CB5923090C7ED1 /* Pods-JYCCommentStarView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42814802A595D6E940D11CED25C9417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573F133516D467A27DDDE35D813C4DAB /* JYCCommentStarView-dummy.m in Sources */,
+				9E0B8147C201B228B0A63B8213BFBEE5 /* JYCCommentStarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		178786025A20C40AC0F215F8C6B38C1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JYCCommentStarView;
+			target = 8D0DABBE28EB86EDF26245DF1EE6DA84 /* JYCCommentStarView */;
+			targetProxy = A4B71C0FF668641A96F5D01E06B6E972 /* PBXContainerItemProxy */;
+		};
+		4DE5737EDBB38905030C3B2B0204F063 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JYCCommentStarView-JYCCommentStarView";
+			target = 50C43466919BB681BD710CF88FD87DB0 /* JYCCommentStarView-JYCCommentStarView */;
+			targetProxy = AC53FBA381264349D7252F85028DAA9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		524A85C54DDF1F07DF22DFD086980CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 100539D5DFF53EFDFC3228F0E8BAC871 /* Pods-JYCCommentStarView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JYCCommentStarView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JYCCommentStarView_Tests/Pods-JYCCommentStarView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JYCCommentStarView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E610F55D5C89A5682E413D5FC39ECDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227F6FCBB5FE1557DEB747C016D42FDC /* JYCCommentStarView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JYCCommentStarView/JYCCommentStarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JYCCommentStarView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JYCCommentStarView/JYCCommentStarView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JYCCommentStarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD2923FDBAF448B8AABB9A5552C03CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227F6FCBB5FE1557DEB747C016D42FDC /* JYCCommentStarView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JYCCommentStarView/JYCCommentStarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JYCCommentStarView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JYCCommentStarView/JYCCommentStarView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JYCCommentStarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B10D11431FCBBBB46D397B950F6B3A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC8F865D6FA4EAFC19076E2FB9B428B /* Pods-JYCCommentStarView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JYCCommentStarView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JYCCommentStarView_Example/Pods-JYCCommentStarView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JYCCommentStarView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA21D31AC6B3494E02707EBAA0AE5016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F16142560DB4A45F3F6106F65B2331AA /* Pods-JYCCommentStarView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JYCCommentStarView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JYCCommentStarView_Tests/Pods-JYCCommentStarView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JYCCommentStarView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC49F22B6DD12C621FF7BB8FB7DA9D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227F6FCBB5FE1557DEB747C016D42FDC /* JYCCommentStarView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JYCCommentStarView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/JYCCommentStarView/ResourceBundle-JYCCommentStarView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JYCCommentStarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F401C42F0CCC245435CC28EE570E6C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38167BF908CFF4146F904720AC0FE176 /* Pods-JYCCommentStarView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JYCCommentStarView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JYCCommentStarView_Example/Pods-JYCCommentStarView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JYCCommentStarView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F42CD190AEE2EF2DCDC8E5199AA51A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227F6FCBB5FE1557DEB747C016D42FDC /* JYCCommentStarView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JYCCommentStarView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/JYCCommentStarView/ResourceBundle-JYCCommentStarView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JYCCommentStarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38A218DBF2014950F69975AE18BE66DD /* Build configuration list for PBXNativeTarget "JYCCommentStarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD2923FDBAF448B8AABB9A5552C03CB1 /* Debug */,
+				8E610F55D5C89A5682E413D5FC39ECDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE5AF70F0E963FB54994989CDD7063D /* Build configuration list for PBXNativeTarget "Pods-JYCCommentStarView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10D11431FCBBBB46D397B950F6B3A21 /* Debug */,
+				F401C42F0CCC245435CC28EE570E6C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C723ED45F77CC52B537CC7E92FB26243 /* Build configuration list for PBXNativeTarget "JYCCommentStarView-JYCCommentStarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC49F22B6DD12C621FF7BB8FB7DA9D72 /* Debug */,
+				F42CD190AEE2EF2DCDC8E5199AA51A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0C32044DBB6BD630F9236544799B60 /* Build configuration list for PBXNativeTarget "Pods-JYCCommentStarView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524A85C54DDF1F07DF22DFD086980CB1 /* Debug */,
+				BA21D31AC6B3494E02707EBAA0AE5016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
