@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JYCCommentStarView_Example' do
+  pod 'JYCCommentStarView', :path => '../'
+
+  target 'JYCCommentStarView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
