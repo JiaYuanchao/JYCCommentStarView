@@ -1,15 +1,18 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4F85132F569052AE1EEA0907B151A512079A54F8",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "1014b18c-2770-11e6-9d33-e5ed4e9872d1++4115" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "1014b18c-2770-11e6-9d33-e5ed4e9872d1++4115" : 9223372036854775807
+    "1014b18c-2770-11e6-9d33-e5ed4e9872d1++4115" : 9223372036854775807,
+    "4F85132F569052AE1EEA0907B151A512079A54F8" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B2CFCC1F-F1F3-496C-85CD-BD2796E0AD21",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "1014b18c-2770-11e6-9d33-e5ed4e9872d1++4115" : "..\/%E5%AE%98%E7%BD%91app"
+    "1014b18c-2770-11e6-9d33-e5ed4e9872d1++4115" : "..\/%E5%AE%98%E7%BD%91app",
+    "4F85132F569052AE1EEA0907B151A512079A54F8" : "JYCCommentStarView\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "JYCCommentStarView",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -19,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.90.201",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1014b18c-2770-11e6-9d33-e5ed4e9872d1++4115"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JiaYuanchao\/JYCCommentStarView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4F85132F569052AE1EEA0907B151A512079A54F8"
     }
   ]
 }
