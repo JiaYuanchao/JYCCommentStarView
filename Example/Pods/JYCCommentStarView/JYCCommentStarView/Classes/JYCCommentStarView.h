@@ -14,8 +14,6 @@
 
 @property (nonatomic, assign) BOOL canClick;
 
-@property (nonatomic, copy) void (^changeStarValueBlock)(CGFloat currentStarValue);
-
 - (__kindof JYCCommentStarView *)initWithFrame:(CGRect)frame
                                      starValue:(CGFloat)starValue
                                     starMargin:(CGFloat)starMargin;

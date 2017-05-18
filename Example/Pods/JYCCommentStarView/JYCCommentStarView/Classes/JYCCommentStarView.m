@@ -87,9 +87,6 @@ NSString *const kStarFullImage = @"starFull";
     if (isIn && self.canClick) {
         NSInteger index = point.x / (kStarWidth + self.starMargin);
         [self resetStarValue:index + 1];
-        if (self.changeStarValueBlock) {
-            self.changeStarValueBlock(index + 1);
-        }
         NSLog(@"%@",NSStringFromCGPoint(point));
     }
     return isIn;

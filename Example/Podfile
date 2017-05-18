@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'JYCCommentStarView_Example' do
-  pod 'JYCCommentStarView'
+  pod 'JYCCommentStarView', :path => '../'
+#  pod 'JYCCommentStarView'
 
 end

@@ -1,5 +1,5 @@
 PODS:
-  - JYCCommentStarView (0.1.0)
+  - JYCCommentStarView (0.2.0)
 
 DEPENDENCIES:
   - JYCCommentStarView (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JYCCommentStarView: 0d0215aecc6cfdd5c59d5afc301c846cfad3eb97
+  JYCCommentStarView: c7049b269454fb512b8d00621e74ae5270b5e1d9
 
-PODFILE CHECKSUM: c846e3a6483267cba7273f8e15755766d3b98df9
+PODFILE CHECKSUM: 687d4f812e93963275d1e29de5d4126757a038d7
 
 COCOAPODS: 1.2.1
